@@ -17,7 +17,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: store-front
-          image: bhup0006/bhup0006-store-front:updated # Front-end store application
+          image: bhup0006/bhup0006-store-front:Updated # Front-end store application
           ports:
             - containerPort: 8080 # Front-end app port
               name: store-front
