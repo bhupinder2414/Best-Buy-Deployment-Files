@@ -17,7 +17,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: store-admin
-          image: bhup0006/bhup0006-store-admin:updated # Admin interface for store
+          image: bhup0006/bhup0006-store-admin:Updated # Admin interface for store
           ports:
             - containerPort: 8081 # Admin app port
               name: store-admin
